@@ -1,0 +1,34 @@
+menu "Soil RS485 sensor"
+
+config SOIL_SENSOR_UART_TX_GPIO
+    int "UART TX pin (to RXD of the HW-726)"
+    default 4
+
+config SOIL_SENSOR_UART_RX_GPIO
+    int "UART RX pin (from TXD of the HW-726)"
+    default 5
+
+config SOIL_SENSOR_BAUD_RATE
+    int "Modbus baud rate"
+    range 1200 115200
+    default 9600
+
+config SOIL_SENSOR_SLAVE_ADDRESS
+    int "Modbus slave address"
+    range 1 247
+    default 2
+
+config SOIL_SENSOR_USE_VEXT
+    bool "Power sensor from Vext (GPIO36, active low)"
+    default n
+    help
+        Enable only when the sensor is verified to run at 3.3 V and its current
+        is within the Vext rating. Do not enable this for an externally powered
+        5-24 V sensor.
+
+config SOIL_SENSOR_PERIOD_MS
+    int "Acquisition period in milliseconds"
+    range 1000 3600000
+    default 5000
+
+endmenu
