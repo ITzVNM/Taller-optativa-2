@@ -1,0 +1,9 @@
+# ESP-IDF build products and IDE settings
+build/
+test/build/
+sdkconfig.old
+test/sdkconfig.old
+.vscode/
+
+# Serial monitor logs
+*.log
