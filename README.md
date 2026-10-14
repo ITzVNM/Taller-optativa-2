@@ -3,7 +3,7 @@
 Firmware en C para leer un sensor de suelo de 7 parámetros por RS485/Modbus RTU
 con una **Heltec WiFi LoRa 32 V3**. La placa usa un ESP32-S3 y el proyecto usa
 exclusivamente APIs de ESP-IDF (`driver/uart`, `driver/gpio`, FreeRTOS, `esp_err`,
-`esp_log`); no contiene Arduino ni archivos `.ino`.
+`esp_log`).
 
 El programa consulta temperatura, humedad, conductividad eléctrica (EC), salinidad,
 nitrógeno, fósforo, potasio y pH, valida el CRC Modbus y escribe una línea JSON por
