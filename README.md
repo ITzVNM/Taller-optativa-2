@@ -211,4 +211,4 @@ Este proyecto se distribuye bajo la licencia **MIT**. Consulte el archivo
 - [Heltec WiFi LoRa 32: ESP32-S3, SX1262 y comparación de versiones](https://docs.heltec.org/en/node/esp32/wifi_lora_32/index.html)
 - [Guía ESP-IDF: sistema de compilación con CMake](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/build-system.html)
 - [Guía ESP-IDF: pruebas unitarias con Unity](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/unit-tests.html)
-- Soil Multi-parameter Sensor Manual V2.2 (manual del fabricante entregado con el sensor)
+- Soil Multi-parameter Sensor Manual V2.2 (manual del fabricante entregado con el sensor)[S28af37c0df36495d9361740ec0d9bdfbk](S28af37c0df36495d9361740ec0d9bdfbk).
