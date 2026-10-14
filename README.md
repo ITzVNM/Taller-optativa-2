@@ -172,23 +172,6 @@ tener el sensor conectado porque prueba la capa de protocolo/decodificacion.
 | pH, humedad o temperatura implausibles | Confirme el mapa del manual del sensor; no cambie escalas solo por intuicion. |
 | Reinicios o nivel alto en RX | Cambie a un transceptor de 3.3 V. Un modulo MAX485 alimentado a 5 V puede enviar 5 V por RO. |
 
-## Publicacion
-
-Antes de entregar, cree un repositorio en GitHub, suba estos archivos y
-compruebe que GitHub reconoce `LICENSE` como MIT. Una secuencia local tipica es:
-
-```powershell
-git init
-git add .
-git commit -m "Implementa lectura Modbus RS485 para sensor de suelo"
-git branch -M main
-git remote add origin https://github.com/USUARIO/soil-rs485-heltec-espidf.git
-git push -u origin main
-```
-
-No se suben `build/`, registros seriales ni secretos. Conserve una captura del
-`idf.py build` y otra de las pruebas en verde para poder verificarlas durante
-la sustentacion.
 
 ## Referencias
 
